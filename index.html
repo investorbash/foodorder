@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Food | Order</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="container-fluid">
+            <div class="mt-2 mb-4 w-25">
+                <img src="https://chopnownow.com/images/logo.png" width="90%" alt="Logo">
+            </div>
+            <div>
+                <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-secondary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">About Us</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab"  type="button" role="tab" aria-selected="false">Contact Us</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+       <!-- HOME -->
+       <div id="home">
+            <!-- Dashboard -->
+            <main class="container-fluid mt-4">
+                <img src="https://chopnownow.com/img/chopcredit-banner.png" width="100%" alt="Main-image">
+            </main>
+
+            <!-- Our Brand -->
+            <div class="container mt-4">
+                <div class="d-flex justify-content-center">
+                    <h4>Our Brand</h4>
+                </div>
+                <div class="flex">
+                    <div class="flex-content">
+                        <img src="images/18.jpeg" alt="Safe House">
+                        <h5>SAFEHOUSE RESTAURANT</h5>
+                        <p>Afro-Fussion Meals</p>
+                        <button class="btn btn-outline-danger">ORDER NOW</button>
+                    </div>
+                    <div class="flex-content">
+                        <img src="images/6.png" alt="Chop Now Now">
+                        <h5>CHOPNOWNOW</h5>
+                        <p>Nigerian Meals</p>
+                        <button class="btn btn-outline-danger">ORDER NOW</button>
+                    </div>
+                    <div class="flex-content">
+                        <img src="images/11.jpeg" alt="Shawarma Xpress ">
+                        <h5>SHAWARMA XPRESS</h5>
+                        <p>Shawarma. Fries. Grills</p>
+                        <button class="btn btn-outline-danger">CLOSED</button>
+                    </div>
+                    <div class="flex-content">
+                        <img src="images/12.jpg" alt="Noodles Box">
+                        <h5>NOODLE BOX</h5>
+                        <p>Noodle Meals</p>
+                        <button class="btn btn-outline-danger">CLOSED</button>
+                    </div>
+                    <div class="flex-content">
+                        <img src="images/giftcoupon.png" alt="Gift Coupon">
+                        <h5>GIFT COUPON</h5>
+                        <button class="btn btn-outline-danger">ORDER NOW</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <hr class="divider" />
+
+            <!-- Chop Now Now Menu -->
+            <div class="container-fluid">
+                <div class="mb-3">
+                    <h4>ChopNowNow Menu</h4>
+                </div>
+                <div class="grid">
+                    <div class="grid-item">
+                        <img src="images/product-images/809.jpg" alt="White Rice">
+                        <h4>White Rice</h4>
+                        <button class="btn btn-outline-danger">PLACE ORDER</button>
+                        <h3>&#8358;400</h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/product-images/810.jpg" alt="Jollof Rice">
+                        <h4>Jollof Rice</h4>
+                        <button class="btn btn-outline-danger">PLACE ORDER</button>
+                        <h3>&#8358;1550 </h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/product-images/994.jpg" alt="Beans">
+                        <h4>Beans</h4>
+                        <button class="btn btn-outline-danger">PLACE ORDER</button>
+                        <h3>&#8358;800</h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/product-images/1117.jpg" alt="Plantain & Vegetables">
+                        <h4>Plantain & Vegetables</h4>
+                        <button class="btn btn-outline-danger">PLACE ORDER</button>
+                        <h3>&#8358;600</h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/product-images/1126.jpg" alt="Fried Yam">
+                        <h4>Fried Yam</h4>
+                        <button class="btn btn-outline-danger">PLACE ORDER</button>
+                        <h3>&#8358;1200</h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/product-images/1229.jpg" alt="White Rice & Plantain">
+                        <h4>White Rice & Plantain</h4>
+                        <button class="btn btn-outline-danger">PLACE ORDER</button>
+                        <h3>&#8358;700</h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/product-images/1322.jpg" alt="Plantain & Beans">
+                        <h4>Plantain & Beans</h4>
+                        <button class="btn btn-outline-danger">PLACE ORDER</button>
+                        <h3>&#8358;300</h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/product-images/1465.jpeg" alt="Fried Rice">
+                        <h4>Fried Rice</h4>
+                        <button class="btn btn-outline-danger">PLACE ORDER</button>
+                        <h3>&#8358;2000</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More -->
+            <div class="container mt-4 mb-4">
+            <div class="d-flex justify-content-end">
+                <button class="btn btn-danger">More</button>
+            </div>
+            </div>
+
+            <!-- How To Order -->
+            <div class="container mb-4">
+                <div class="d-flex justify-content-center">
+                    <h4>HOW TO ORDER</h4>
+                </div>
+                <img src="images/how-to-order.png" width="100%" alt="How To Order">
+            </div>
+
+            <!-- Footer -->
+            <div class="container-fluid mt-4" style="background: #111;">
+                <div class="footer">
+                    <div class="footer-item">
+                        <h5>DELIVERY LOCATIONS</h5>
+                        <ul>
+                            <li><a href="#">Parakin</a></li>
+                            <li><a href="#">Modomo</a></li>
+                            <li><a href="#">Ooni Layout</a></li>
+                            <li><a href="#">Emeralds Layout</a></li>
+                            <li><a href="#">Road 7</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h5>PAYMENT OPTIONS</h5>
+                        <ul>
+                            <li><a href="#">Cryptocurrency</a></li>
+                            <li><a href="#">Wire Transfer</a></li>
+                            <li><a href="#">Bank Transfer</a></li>
+                            <li><a href="#">Apple Pay</a></li>
+                            <li><a href="#">Emerald Pay</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h5>CONTACT US</h5>
+
+                        <ul>
+                            <li><a href="tel:+23411223344">+23411223344</a></li>
+                            <li><a href="#">Join Us</a></li>
+                            <li><a href="mailto:CONTACTUS@yahoo.com">ContactusS@yahoo.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h5>CHOPNOWNOW</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ABOUT -->
+        <div class="container-fluid" id="about" style="display: none;">
+            <div class="d-flex justify-content-center mt-4">
+                <h4>About Us</h4>
+            </div>
+
+            <!-- Our Vision -->
+            <div class="d-flex justify-content-start w-50 mb-4">
+                <div>
+                    <h5 style="text-align: center;">Our vision</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, aperiam illo ab voluptates sed quam dolorem repellat. Debitis, reiciendis nesciunt? Fugit pariatur perspiciatis, commodi, ab iusto quod natus architecto omnis error recusandae consequuntur quibusdam ad sed odio maxime quisquam explicabo aspernatur similique quam voluptatibus! Magni id voluptas ea vel, ad maxime architecto impedit ipsum voluptates. Voluptatum et iure magnam ea odio sequi amet dignissimos nesciunt? Eos impedit alias quaerat repellat deleniti laudantium quasi molestiae mollitia, totam nihil dicta. Impedit a, nesciunt est voluptatum, voluptate quod sapiente omnis dolorem itaque sequi tempora, numquam iure excepturi autem nam perspiciatis ullam placeat provident!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Our History  -->
+            <div class="d-flex justify-content-end mb-4">
+                <div style="width: 50%;">
+                    <h5 style="text-align: center;">Our History</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, aperiam illo ab voluptates sed quam dolorem repellat. Debitis, reiciendis nesciunt? Fugit pariatur perspiciatis, commodi, ab iusto quod natus architecto omnis error recusandae consequuntur quibusdam ad sed odio maxime quisquam explicabo aspernatur similique quam voluptatibus! Magni id voluptas ea vel, ad maxime architecto impedit ipsum voluptates. Voluptatum et iure magnam ea odio sequi amet dignissimos nesciunt? Eos impedit alias quaerat repellat deleniti laudantium quasi molestiae mollitia, totam nihil dicta. Impedit a, nesciunt est voluptatum, voluptate quod sapiente omnis dolorem itaque sequi tempora, numquam iure excepturi autem nam perspiciatis ullam placeat provident!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="footer-item">
+                    <h5>DELIVERY LOCATIONS</h5>
+                    <ul>
+                        <li><a href="#">Parakin</a></li>
+                        <li><a href="#">Modomo</a></li>
+                        <li><a href="#">Ooni Layout</a></li>
+                        <li><a href="#">Emeralds Layout</a></li>
+                        <li><a href="#">Road 7</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h5>PAYMENT OPTIONS</h5>
+                    <ul>
+                        <li><a href="#">Cryptocurrency</a></li>
+                        <li><a href="#">Wire Transfer</a></li>
+                        <li><a href="#">Bank Transfer</a></li>
+                        <li><a href="#">Apple Pay</a></li>
+                        <li><a href="#">Emerald Pay</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h5>CONTACT US</h5>
+
+                    <ul>
+                        <li><a href="tel:+23411223344">+23411223344</a></li>
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="mailto:CONTACTUS@yahoo.com">ContactusS@yahoo.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h5>CHOPNOWNOW</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+       <!-- CONTACT -->
+       <div id="contact" style="display: none;">
+            <div class="container-fluid">
+                <div class="mb-5 mt-4">
+                    <h4 style="text-align: center;">Contact Us</h4>
+                </div>
+
+                <p style="text-align: center;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, distinctio fugiat architecto beatae iste magnam dicta, et dolore illum iusto quisquam officia quo saepe. Quidem blanditiis nostrum esse amet quo minus! Quisquam impedit alias officia neque ab non porro tempore sequi magnam provident odit quam exercitationem aliquam sint debitis aut, magni quos sapiente placeat nulla qui quidem? Fuga perspiciatis, excepturi corporis earum dignissimos quam ad eligendi iusto ipsam tenetur nostrum laboriosam rem quis? Eius voluptate consequatur, beatae officiis impedit laborum illo vero tempore nobis expedita autem rerum dolor esse pariatur consectetur ut quo voluptas fugit est. Eum ContactUs@yahoo.com.
+                </p>
+
+                <!-- Footer -->
+                <div class="footer">
+                    <div class="footer-item">
+                        <h5>DELIVERY LOCATIONS</h5>
+                        <ul>
+                            <li><a href="#">Parakin</a></li>
+                            <li><a href="#">Modomo</a></li>
+                            <li><a href="#">Ooni Layout</a></li>
+                            <li><a href="#">Emeralds Layout</a></li>
+                            <li><a href="#">Road 7</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h5>PAYMENT OPTIONS</h5>
+                        <ul>
+                            <li><a href="#">Cryptocurrency</a></li>
+                            <li><a href="#">Wire Transfer</a></li>
+                            <li><a href="#">Bank Transfer</a></li>
+                            <li><a href="#">Apple Pay</a></li>
+                            <li><a href="#">Emerald Pay</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h5>CONTACT US</h5>
+    
+                        <ul>
+                            <li><a href="tel:+23411223344">+23411223344</a></li>
+                            <li><a href="#">Join Us</a></li>
+                            <li><a href="mailto:CONTACTUS@yahoo.com">ContactusS@yahoo.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h5>CHOPNOWNOW</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+       
+
+        
+
+
+
+        
+        <script src="main.js"></script>
+    </body>
+</html>

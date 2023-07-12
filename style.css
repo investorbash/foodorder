@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #1111; */
+}
+
+/* HOME */
+/* Our Brand */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-content {
+    width: 25%;
+    padding: 1.5rem;
+}
+
+.flex .flex-content img {
+    width: 100%;
+    border: 1rem solid whitesmoke;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: yellow;
+    }
+
+    .flex-content {
+        width: 50%;
+    }
+}
+
+/* Chop Now Now Menu */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    place-content: center;
+}
+
+.grid-item {
+    width: 80%;
+    margin-top: .5rem;
+    border: 1px solid wheat;
+}
+
+.grid .grid-item img {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #111;
+}
+
+.footer-item { 
+    width: 25%;
+    padding: 1rem;
+}
+
+.footer .footer-item h5{
+    color: white;
+}
+
+.footer .footer-item ul li{
+    list-style: none;
+}
+
+.footer .footer-item ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer .footer-item ul li a:hover {
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .footer-item{
+      width: 50%;
+    }
+  }
+
+  /* ABOUT */
