@@ -21,6 +21,11 @@ body {
     padding: 1.5rem;
 }
 
+.flex .flex-content a{
+    color: red;
+    text-decoration: none;
+}
+
 .flex .flex-content img {
     width: 100%;
     border: 1rem solid whitesmoke;
@@ -50,6 +55,11 @@ body {
     width: 80%;
     margin-top: .5rem;
     border: 1px solid wheat;
+}
+
+.grid .grid-item a{
+    text-decoration: none;
+    color: red;
 }
 
 .grid .grid-item img {
